@@ -1,8 +1,8 @@
-# 🌀 Unity URP Datamosh Shader
+# Unity URP Datamosh Shader
 
 A real-time datamoshing/glitch shader effect for Unity's Universal Render Pipeline (URP). This system simulates motion artifacting, block-based tearing, and compression noise by leveraging camera motion vectors and frame blending logic. Ideal for interactive sequences, glitch transitions, and stylized visuals.
 
-## ✨ Features
+##  Features
 
 - Custom `ScriptableRendererFeature` and `RenderPass` for URP
 - Frame-to-frame feedback with working/displacement buffers
@@ -13,14 +13,14 @@ A real-time datamoshing/glitch shader effect for Unity's Universal Render Pipeli
 
 All parameters are exposed and runtime-adjustable through the `MoshController`.
 
-## 📦 Requirements
+##  Requirements
 
 - Unity 2022+ with URP
 - URP Forward Renderer asset
 - Depth and Motion Vectors enabled
 - A compatible camera with `MoshController` attached
 
-## 🧪 Parameters
+##  Parameters
 
 | Parameter           | Description                                      |
 |---------------------|--------------------------------------------------|
@@ -55,7 +55,7 @@ Command Buffers and `ScriptableRenderPass` instances are used to apply this effe
 
 ---
 
-## 🧪 TODOs / Notes
+##  TODOs / Notes
 
 - Could be extended with audio-reactive input or scene-based mosh variations.
 - Further optimization possible via async GPU readbacks or lower-res buffers.
